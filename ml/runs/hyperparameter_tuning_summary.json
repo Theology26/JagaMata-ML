@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-19 06:52:12",
+  "benchmark_results": [
+    {
+      "run_name": "pitch_20261118_181059",
+      "label": "Baseline Single-Head (lr 1e-3, wd 1e-4, beta 1.0)",
+      "val_pitch_mae_best": 2.4255,
+      "val_screen_mae_best": 2.45,
+      "notes": "Arsitektur awal, mengalami oversmoothing pada yaw ekstrem"
+    },
+    {
+      "run_name": "pitch_tuned_20261118_210456",
+      "label": "Tuned Multi-Task v1 (lr 1e-3, wd 1e-3, dropout 0.3, beta 1.5, pitch_wt 1.5)",
+      "val_pitch_mae_best": 2.1498,
+      "val_screen_mae_best": 2.5,
+      "notes": "Multi-task [pitch, yaw, roll], pangkas error yaw ekstrem 52.6%"
+    },
+    {
+      "run_name": "pitch_exp_warmup_lr5e4",
+      "label": "Hipotesis Warmup: LR 5e-4 (konservatif) + 3 Epoch Linear Warmup + Beta 1.2",
+      "val_pitch_mae_best": 2.3513,
+      "val_screen_mae_best": 2.638,
+      "duration_minutes": 60.62,
+      "notes": "Tuned run selesai dalam 60.62 menit"
+    },
+    {
+      "run_name": "pitch_exp_pitchweight2_beta1",
+      "label": "Hipotesis Presisi: Pitch Weight 2.0x (fokus pitch) + Huber Beta 1.0 (penalti ketat)",
+      "val_pitch_mae_best": 2.1104,
+      "val_screen_mae_best": 2.4223,
+      "duration_minutes": 48.76,
+      "notes": "Tuned run selesai dalam 48.76 menit"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task": "T1_Head_Pitch_Regressor_Tuned",
+  "model": "MobileNetV3-Small (Multi-Task + Dropout 0.3)",
+  "test_dataset": "AFLW2000-3D",
+  "n_test_samples": 2000,
+  "test_mae_pitch_overall": 9.1675,
+  "test_mae_pitch_screen_domain": 4.4109,
+  "test_mae_pitch_extreme_yaw": 23.7466,
+  "ci95_overall": [
+    7.9654,
+    10.593
+  ],
+  "val_mae_pitch_best": 2.3513,
+  "target_kpi": "MAE pitch <= 5.0\u00b0",
+  "lolos_target_screen_domain": true,
+  "n_screen_domain_samples": 1508,
+  "n_extreme_yaw_samples": 492,
+  "timestamp": "2026-11-19 07:52:36"
+}

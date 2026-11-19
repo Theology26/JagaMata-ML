@@ -1,0 +1,28 @@
+{
+  "task": "T1_Head_Pitch_Regressor",
+  "model": "MobileNetV3-Small",
+  "test_dataset": "AFLW2000-3D",
+  "n_test_samples": 2000,
+  "test_mae_pitch": 9.6285,
+  "ci95": [
+    8.4108,
+    11.0472
+  ],
+  "val_mae_best": 2.4255,
+  "target_kpi": "MAE pitch <= 5.0\u00b0",
+  "lolos_target": false,
+  "timestamp": "2026-11-18 20:03:22",
+  "subgroup_screen_domain": {
+    "condition": "|yaw| < 45\u00b0 (Anak menatap layar gadget)",
+    "n_samples": 1508,
+    "test_mae_pitch": 4.5804,
+    "kpi_target": "<= 5.0\u00b0",
+    "status": "LOLOS TARGET JagaMata \u2705"
+  },
+  "subgroup_extreme_profile": {
+    "condition": "|yaw| >= 45\u00b0 (Kepala menengok menyamping tajam)",
+    "n_samples": 492,
+    "test_mae_pitch": 25.1026,
+    "diagnosa": "Oversmoothing / ambiguitas proyeksi 2D ke 3D"
+  }
+}

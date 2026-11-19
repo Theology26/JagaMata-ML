@@ -1,0 +1,15 @@
+{
+  "task": "T2_Myopia_Fundus_Classifier",
+  "model": "EfficientNet-B0 (Pretrained)",
+  "test_dataset": "Myopia Images Test Split (15%)",
+  "n_test_samples": 15084,
+  "test_auc": 1.0,
+  "test_f1": 1.0,
+  "test_sensitivity": 1.0,
+  "test_specificity": 1.0,
+  "test_accuracy": 1.0,
+  "target_kpi": "ROC-AUC >= 0.9",
+  "lolos_target": true,
+  "test_duration_sec": 224.67,
+  "timestamp": "2026-11-18 20:56:56"
+}

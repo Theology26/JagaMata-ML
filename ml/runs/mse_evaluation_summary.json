@@ -1,0 +1,88 @@
+{
+  "Baseline (Single-Task)": {
+    "pitch": {
+      "overall": {
+        "n": 2000,
+        "mse": 1091.237,
+        "rmse": 33.0339,
+        "mae": 9.6289
+      },
+      "screen_domain": {
+        "n": 1508,
+        "mse": 44.1398,
+        "rmse": 6.6438,
+        "mae": 4.5804
+      },
+      "extreme_profile": {
+        "n": 492,
+        "mse": 4300.6326,
+        "rmse": 65.5792,
+        "mae": 25.1026
+      }
+    }
+  },
+  "Tuned v1 (Multi-Task)": {
+    "pitch": {
+      "overall": {
+        "n": 2000,
+        "mse": 1079.6448,
+        "rmse": 32.8579,
+        "mae": 9.1554
+      },
+      "screen_domain": {
+        "n": 1508,
+        "mse": 43.9905,
+        "rmse": 6.6325,
+        "mae": 4.4214
+      },
+      "extreme_profile": {
+        "n": 492,
+        "mse": 4253.9675,
+        "rmse": 65.2224,
+        "mae": 23.6651
+      }
+    },
+    "yaw": {
+      "overall_mse": 122.2883,
+      "overall_rmse": 11.0584,
+      "overall_mae": 4.5337
+    },
+    "roll": {
+      "overall_mse": 1339.2394,
+      "overall_rmse": 36.5956,
+      "overall_mae": 7.754
+    }
+  },
+  "Champion (Tuned + PitchWeight=2.0, Beta=1.0)": {
+    "pitch": {
+      "overall": {
+        "n": 2000,
+        "mse": 1086.3629,
+        "rmse": 32.96,
+        "mae": 9.2068
+      },
+      "screen_domain": {
+        "n": 1508,
+        "mse": 42.0147,
+        "rmse": 6.4819,
+        "mae": 4.3692
+      },
+      "extreme_profile": {
+        "n": 492,
+        "mse": 4287.3328,
+        "rmse": 65.4777,
+        "mae": 24.0343
+      }
+    },
+    "yaw": {
+      "overall_mse": 130.4068,
+      "overall_rmse": 11.4196,
+      "overall_mae": 4.4869
+    },
+    "roll": {
+      "overall_mse": 1347.1577,
+      "overall_rmse": 36.7036,
+      "overall_mae": 7.9499
+    }
+  }
+}

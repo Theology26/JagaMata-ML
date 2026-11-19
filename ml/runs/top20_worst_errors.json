@@ -1,0 +1,222 @@
+[
+  {
+    "filename": "image04157.jpg",
+    "true_pitch": 893.75,
+    "pred_pitch": 0.0,
+    "pitch_error": 893.75,
+    "true_yaw": 187.79,
+    "pred_yaw": 1.51,
+    "true_roll": -950.63,
+    "pred_roll": -14.12,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image03123.jpg",
+    "true_pitch": -713.75,
+    "pred_pitch": 17.33,
+    "pitch_error": 731.07,
+    "true_yaw": -351.23,
+    "pred_yaw": 6.71,
+    "true_roll": -972.27,
+    "pred_roll": -10.31,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image01530.jpg",
+    "true_pitch": -327.97,
+    "pred_pitch": 0.86,
+    "pitch_error": 328.83,
+    "true_yaw": -104.58,
+    "pred_yaw": -70.12,
+    "true_roll": 334.0,
+    "pred_roll": -5.12,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00150.jpg",
+    "true_pitch": -320.1,
+    "pred_pitch": -28.53,
+    "pitch_error": 291.57,
+    "true_yaw": 118.91,
+    "pred_yaw": 67.56,
+    "true_roll": -327.57,
+    "pred_roll": -25.8,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00032.jpg",
+    "true_pitch": -300.0,
+    "pred_pitch": -27.25,
+    "pitch_error": 272.75,
+    "true_yaw": -102.96,
+    "pred_yaw": -70.88,
+    "true_roll": 297.6,
+    "pred_roll": 25.92,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00339.jpg",
+    "true_pitch": -204.08,
+    "pred_pitch": 11.43,
+    "pitch_error": 215.51,
+    "true_yaw": -78.52,
+    "pred_yaw": -82.56,
+    "true_roll": 203.09,
+    "pred_roll": -2.44,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00392.jpg",
+    "true_pitch": -197.65,
+    "pred_pitch": 9.6,
+    "pitch_error": 207.26,
+    "true_yaw": -77.8,
+    "pred_yaw": -64.88,
+    "true_roll": 198.92,
+    "pred_roll": -7.09,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00091.jpg",
+    "true_pitch": 195.87,
+    "pred_pitch": 5.52,
+    "pitch_error": 190.35,
+    "true_yaw": -95.54,
+    "pred_yaw": -81.81,
+    "true_roll": -200.81,
+    "pred_roll": -8.33,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image03173.jpg",
+    "true_pitch": -151.04,
+    "pred_pitch": -0.62,
+    "pitch_error": 150.43,
+    "true_yaw": 83.06,
+    "pred_yaw": 88.94,
+    "true_roll": -148.97,
+    "pred_roll": -1.21,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00290.jpg",
+    "true_pitch": 132.7,
+    "pred_pitch": 1.16,
+    "pitch_error": 131.55,
+    "true_yaw": 81.97,
+    "pred_yaw": 85.06,
+    "true_roll": 133.93,
+    "pred_roll": 9.06,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00179.jpg",
+    "true_pitch": -133.4,
+    "pred_pitch": -18.94,
+    "pitch_error": 114.47,
+    "true_yaw": -80.25,
+    "pred_yaw": 28.44,
+    "true_roll": -218.9,
+    "pred_roll": -8.88,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image01845.jpg",
+    "true_pitch": 110.35,
+    "pred_pitch": 5.01,
+    "pitch_error": 105.34,
+    "true_yaw": -79.81,
+    "pred_yaw": -86.56,
+    "true_roll": -110.22,
+    "pred_roll": 2.2,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00139.jpg",
+    "true_pitch": 112.93,
+    "pred_pitch": 10.84,
+    "pitch_error": 102.09,
+    "true_yaw": 83.35,
+    "pred_yaw": 77.69,
+    "true_roll": 104.17,
+    "pred_roll": 10.91,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00188.jpg",
+    "true_pitch": -121.17,
+    "pred_pitch": -24.08,
+    "pitch_error": 97.09,
+    "true_yaw": -74.25,
+    "pred_yaw": -77.88,
+    "true_roll": 124.11,
+    "pred_roll": 21.45,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00260.jpg",
+    "true_pitch": -99.44,
+    "pred_pitch": -3.19,
+    "pitch_error": 96.25,
+    "true_yaw": 84.28,
+    "pred_yaw": 89.44,
+    "true_roll": -98.62,
+    "pred_roll": -7.99,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image03162.jpg",
+    "true_pitch": 103.94,
+    "pred_pitch": 7.74,
+    "pitch_error": 96.2,
+    "true_yaw": 80.1,
+    "pred_yaw": 83.44,
+    "true_roll": 120.34,
+    "pred_roll": 11.62,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image00352.jpg",
+    "true_pitch": -111.22,
+    "pred_pitch": -18.23,
+    "pitch_error": 92.98,
+    "true_yaw": -71.95,
+    "pred_yaw": -61.53,
+    "true_roll": 117.24,
+    "pred_roll": 8.65,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image02254.jpg",
+    "true_pitch": 87.44,
+    "pred_pitch": -3.94,
+    "pitch_error": 91.38,
+    "true_yaw": -4.16,
+    "pred_yaw": 1.21,
+    "true_roll": -90.24,
+    "pred_roll": -5.14,
+    "is_screen_domain": true
+  },
+  {
+    "filename": "image03174.jpg",
+    "true_pitch": 95.67,
+    "pred_pitch": 4.58,
+    "pitch_error": 91.09,
+    "true_yaw": -82.66,
+    "pred_yaw": -84.5,
+    "true_roll": -102.0,
+    "pred_roll": -3.76,
+    "is_screen_domain": false
+  },
+  {
+    "filename": "image02000.jpg",
+    "true_pitch": -99.68,
+    "pred_pitch": -9.98,
+    "pitch_error": 89.7,
+    "true_yaw": 74.05,
+    "pred_yaw": 81.31,
+    "true_roll": -94.54,
+    "pred_roll": -18.78,
+    "is_screen_domain": false
+  }
+]
